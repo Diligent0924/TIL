@@ -30,5 +30,11 @@ Github
 3. git pull origin master --rebase (바꾸고 싶은 파일) => origin root
 
 하나의 Repository에서 여러명이 사용하는 경우
-1. pull => 항상 최신 버전으로 가져온다. (Remote에서 Local로 끌고오는것)
-2. clone => 최신 버전을 clone한다.
+1. git pull => 항상 최신 버전으로 가져온다. (Remote에서 Local로 끌고오는것)
+2. git clone [코드] => 최신 버전을 clone한다.
+
+conflict가 나오는 상황
+1. 같이 일을 했을 때 A인 사람이 먼저 push하고 B가 이후 push하면 conflict
+2. git pull
+3. git commit (vim 환경에서 저장되어 있음) 
+4. 'wq'로 저장 => commit의 수정한다.
