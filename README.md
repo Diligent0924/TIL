@@ -23,3 +23,12 @@ Github
       * git add . 현재 위치한 wd 의 모든 수정사항
    2. git commit -m 'first commit'
 3. git remote push origin master
+
+만약 origin의 위치를 변경하고 싶을 경우
+1. git remote remove origin (바꾸기 전 파일)
+2. git remote add origin [코드] (바꾸고 싶은 파일)
+3. git pull origin master --rebase (바꾸고 싶은 파일) => origin root
+
+하나의 Repository에서 여러명이 사용하는 경우
+1. pull => 항상 최신 버전으로 가져온다. (Remote에서 Local로 끌고오는것)
+2. clone => 최신 버전을 clone한다.
