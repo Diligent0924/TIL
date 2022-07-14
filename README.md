@@ -38,3 +38,5 @@ conflict가 나오는 상황
 2. git pull
 3. git commit (vim 환경에서 저장되어 있음) 
 4. 'wq'로 저장 => commit의 수정한다.
+
+안녕
