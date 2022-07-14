@@ -37,7 +37,7 @@ conflict가 나오는 상황
 1. 같이 일을 했을 때 A인 사람이 먼저 push하고 B가 이후 push하면 conflict
 2. git pull
 3. git commit (vim 환경에서 저장되어 있음) 
-4. 'wq'로 저장 => commit의 수정한다.
+4. 'wq'로 저장 => commit의 수정한다. (그냥 push해도 상관없음)
 
 안녕
 ㅎㅎ
