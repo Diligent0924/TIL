@@ -39,5 +39,4 @@ conflict가 나오는 상황
 3. git commit (vim 환경에서 저장되어 있음) 
 4. 'wq'로 저장 => commit의 수정한다. (그냥 push해도 상관없음)
 
-안녕
-ㅎㅎ
+야아아아아
