@@ -39,4 +39,8 @@ conflict가 나오는 상황
 3. git commit (vim 환경에서 저장되어 있음) 
 4. 'wq'로 저장 => commit의 수정한다. (그냥 push해도 상관없음)
 
-야아아아아
+Til Remote Repository 생성
+1. Local File 변경
+2. 기존의 Til Clone 한 후에 git clone 
+
+이상하다
