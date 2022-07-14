@@ -43,4 +43,4 @@ Til Remote Repository 생성
 1. Local File 변경
 2. 기존의 Til Clone 한 후에 git clone 
 
-이상하다
+안녕하세요~
