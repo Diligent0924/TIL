@@ -180,7 +180,18 @@
 <details>
 <summary> 1st Day - off </summary>
 <div markdown = "1">
-   https://www.notion.so/cd9b412a45824fbf8767205cd7aab4d8?v=7b5510bcbcf04550b552cc5b05056c1d&p=9e89eceb499c4284b52694e97ebc9b66
+1. 오픈소스(Open source)
+    - 공개된 소프트웨어라는 의미로 무료로 사용할 수 있는 framework/Library 등을 의미한다.
+    - Framework vs Library
+        - Framework : 일정하게 짜여진 틀
+        - Library : 여러가지 도구들 ⇒ 모든 곳에서 사용이 가능하다.
+2. git ignore
+    - Github에서 중요한 소스를 가리기 위해 사용하는 파일 ( 해당 파일에 .gitignore 사용 )
+    - Repository를 생성하자마자 파일을 만들어야함
+    - [ignore.io](http://ignore.io)라는 사이트에서 .gitignore에 들어갈 기본적인 구조 제공
+        - 가능하면 하위파일에 dummy라는 파일을 만든 후 안에 중요한 자료를 넣어놓음
+        - `# Cython debug symbols` 부분에 /dummy를 넣어놓으면 해당 파일 자료는 Git에 올라오지 않음
+        - Git에서 한번 이미 관리했다면 이후에는 감추는 것이 불가능하므로 반드시 파일 먼저!
 </div>
 </details>
 
