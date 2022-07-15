@@ -178,13 +178,15 @@
 
 
 <details>
-<summary> 1st Day - off </summary>
+<summary> 2st Day - off </summary>
 <div markdown = "1">
 1. 오픈소스(Open source)
     - 공개된 소프트웨어라는 의미로 무료로 사용할 수 있는 framework/Library 등을 의미한다.
     - Framework vs Library
         - Framework : 일정하게 짜여진 틀
         - Library : 여러가지 도구들 ⇒ 모든 곳에서 사용이 가능하다.
+   
+   
 2. git ignore
     - Github에서 중요한 소스를 가리기 위해 사용하는 파일 ( 해당 파일에 .gitignore 사용 )
     - Repository를 생성하자마자 파일을 만들어야함
