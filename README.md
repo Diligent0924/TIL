@@ -46,5 +46,16 @@ conflict가 나오는 상황
 Til Remote Repository 생성
 1. Local File 변경
 2. 기존의 Til Clone 한 후에 git clone 
+
+https://www.notion.so/cd9b412a45824fbf8767205cd7aab4d8?v=7b5510bcbcf04550b552cc5b05056c1d&p=723bd6584e9f4a849bd8388b5972dba0
 </div>
 </details>
+
+
+<details>
+<summary> 1st Day - off </summary>
+<div markdown = "1">
+   https://www.notion.so/cd9b412a45824fbf8767205cd7aab4d8?v=7b5510bcbcf04550b552cc5b05056c1d&p=9e89eceb499c4284b52694e97ebc9b66
+</div>
+</details>
+
