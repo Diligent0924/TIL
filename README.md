@@ -42,7 +42,3 @@ conflict가 나오는 상황
 Til Remote Repository 생성
 1. Local File 변경
 2. 기존의 Til Clone 한 후에 git clone 
-
-안녕하세요~
-
-하ㅏ하핳
