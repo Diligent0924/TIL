@@ -1,5 +1,9 @@
 ### Remote Repository 연결하기
 
+<details>
+<summary> 1st Day - off </summary>
+<div markdown = "1">
+   
 Remote Repo 생성하기
 
 Github
@@ -42,3 +46,5 @@ conflict가 나오는 상황
 Til Remote Repository 생성
 1. Local File 변경
 2. 기존의 Til Clone 한 후에 git clone 
+</div>
+</details>
