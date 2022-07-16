@@ -209,6 +209,8 @@
    * 자격증명관리자 파일 => Windows 자격 증명 => git id, password 변경
    * git config --global [user.name + '이름', user.password + '토큰'] 입력
    * 토큰의 경우 Git Setting => developer setting => 토큰 발급하는 기관이 있음 (최근 보안 강화를 위해 Git에서는 토큰으로 발급)
+   
+   좋은 템플릿 사이트 : https://jekyllthemes.io/theme/creative-theme-jekyll
 </div>
 </details>
 
