@@ -211,6 +211,8 @@
    * 토큰의 경우 Git Setting => developer setting => 토큰 발급하는 기관이 있음 (최근 보안 강화를 위해 Git에서는 토큰으로 발급)
    
    좋은 템플릿 사이트 : https://jekyllthemes.io/theme/creative-theme-jekyll
+   * 만약 먼저 Pull된 것이 있다면 git push할 때 에러가 나므로 git pull로 상태를 체크한 후에 확인해야함
+   * html에 대한 전반적인 지식을 배운 후에 Template 변경이 필요할 것으로 
 </div>
 </details>
 
