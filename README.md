@@ -202,8 +202,9 @@
 <summary> 3st Day - off </summary>
 <div markdown = "1">
 1. 기존에 Git이 연동이 되어있을 때 다른 Git으로 연동을 바꾸려고 하는 경우
-   ''' python  remote: Permission to A.git denied to B.
+   '''python  remote: Permission to A.git denied to B.
    remote: Support for password authentication was removed on 000 으로 나올 경우에 사용 '''
+   
    * 자격증명관리자 파일 => Windows 자격 증명 => git id, password 변경
    * git config --global [user.name + '이름', user.password + '토큰'] 입력
    * 토큰의 경우 Git Setting => developer setting => 토큰 발급하는 기관이 있음 (최근 보안 강화를 위해 Git에서는 토큰으로 발급)
