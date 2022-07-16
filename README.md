@@ -202,6 +202,7 @@
 <summary> 3st Day - off </summary>
 <div markdown = "1">
 1. 기존에 Git이 연동이 되어있을 때 다른 Git으로 연동을 바꾸려고 하는 경우
+   
    '''python  remote: Permission to A.git denied to B.
    remote: Support for password authentication was removed on 000 으로 나올 경우에 사용 '''
    
