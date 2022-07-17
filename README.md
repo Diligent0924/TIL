@@ -216,3 +216,10 @@
 </div>
 </details>
 
+<details>
+<summary> 4st Day - off </summary>
+<div markdown = "1">
+   * 만약 git branch를 merge했으나 그 이전으로 되돌리고 싶을 경우 git reset HEAD^ 입력해서 되돌려놓을 수 있다
+   * 원하는 곳으로 돌아간 후에서는 commit / push로 원하는 곳을 원격에 넣어줘야 비로소 바뀔 수 있다.
+</div>
+</details>
