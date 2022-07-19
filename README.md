@@ -297,3 +297,12 @@
         - 명시적 형 변환(Explicit) : 특정 함수를 활용하여 의도적으로 자료형을 변환
 </div>
 </details>
+
+
+<details>
+<summary> 6st Day - off </summary>
+<div markdown = "1">
+   Python fstring
+   * fstring의 경우 print를 하지 않아도 자동으로 가능하다.
+</div>
+</details>
