@@ -300,7 +300,7 @@
 
 
 <details>
-<summary> 7st Day - off </summary>
+<summary> 6st Day - off </summary>
 <div markdown = "1">
    Python fstring
    * fstring의 경우 print를 하지 않아도 자동으로 가능하다.
@@ -308,7 +308,7 @@
 </details>
 
 <details>
-<summary> 6st Day - off </summary>
+<summary> 7st Day - off </summary>
 <div markdown = "1">
   1. 조건문
     - 특정 조건에서 특정한 부분이 나올 수 있도록 하는 문법
