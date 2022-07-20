@@ -300,9 +300,95 @@
 
 
 <details>
-<summary> 6st Day - off </summary>
+<summary> 7st Day - off </summary>
 <div markdown = "1">
    Python fstring
    * fstring의 경우 print를 하지 않아도 자동으로 가능하다.
+</div>
+</details>
+
+<details>
+<summary> 6st Day - off </summary>
+<div markdown = "1">
+  1. 조건문
+    - 특정 조건에서 특정한 부분이 나올 수 있도록 하는 문법
+    - 한줄 코딩 : (True인 값) if 조건 else (false인 경우의 값)
+2. 반복문
+    - for / While 2가지 반복문 방식이 있음
+        - for : 보통 어떤 list를 하나씩 비교하거나 전체를 돌릴 때 사용
+            - for student, grade in [Dic].items(): ⇒ key, value값
+            - [Dic].keys(), [Dic].values로 나타낼 수 있음
+            - for idx, number in enumerate([list]): ⇒ idx(index), number(해당list)
+            - List comprehension : 리스트 안에 for, if문을 넣음으로써 간결화 시도
+            - Dictionay_comprehension : {i : v for number in enumerate([list)} 방식
+        - while : 어떤 특정한 조건일 때 사용
+        - 반복문에서 자주 사용하는 용어
+            - continue : 이후의 코드는 무시하고 다음 반복으로 돌아감
+            - pass : 아무런 영향이 없음 (어떤걸 넣고 싶은데 애매할 때 일단 넣는 경우)
+            - break : for문 자체를 중지시키는 경우
+    - Python tutor : 코드를 한줄씩 돌릴 수 있는 프로그램 사이트 이름
+3. 함수의 의미
+    - Decomposition(분해) : 기능을 분해하고 재사용을 가능하게 한다.
+    - Abstraction(추상화) : 복잡한 내용을 모르더라도 사용할 수 있도록 하는 재사용성
+    - 함수의 종류
+        - 내장함수 ⇒ 파이썬에 기본적으로 포함된 함수
+        - 외장함수 ⇒ import문을 사용하여 외부 라이브러리에서 제공하는 함수
+        - 사용자 정의 함수 ⇒ 사용자가 직접 만드는 함수
+    - 값에 따른 함수의 종류
+        - Void function ⇒ 명시적인 return 값이 없는 경우 None을 반환하고 종료
+        - Value returning function ⇒ 함수 실행 후 return 값을 통해 반환함(함수 바로 종료)
+    - def 안에 print vs return
+        - print ⇒ 변수에 지정이 불가능하다, 바로 쓴다면 가능
+        - return ⇒ 변수에 넣어도 가능 (그냥 return 써라)
+    - Parameter와 Argument
+        - Pararmeter : 함수 시 input 이름
+        - Argument : 사용할 때 명시
+    - keyword Arguments ⇒ (default = position argument)
+        - 위치와 상관없이 Argument에서 Parameter이름을 명시하는 것
+    - 정해지지않은 여러 개의 Arguments 처리
+        - 가변인자(*args) ⇒ 여러 개의 Positional Arguement를 하나의 필수 parameter로 사용
+    - 패킹과 언패킹
+        - 패킹 ⇒ 여러 개의 데이터를 묶어서 변수로 할당
+        - 언패킹 ⇒ 시퀀스 속의 요소들을 여러 개의 변수에 나누어 할당하는 것
+            - numbers = [1,2,3,4]  a,b,*c =numbers 이면 c = [3,4]가 나옴
+    - 가변 키워드 인자 ⇒ **를 이용하여 사용
+        - Dictionary형태로 묶이는 방법
+    - Python의 Scope 범위
+        - global scope ⇒ 코드 어디에서나 쓸수 있는 공간
+        - local scope ⇒ 함수가 만든 scope, 함수 내부에서만 사용 가능
+    - 변수 생명주기(lifecycle) ⇒ LEGB Rule
+        - built-in scope ⇒ 파이썬이 실행된 이후부터 영원히 유지
+        - global scope ⇒ 모듈이 호출된 시점 이후 혹은 인터프리터가 끝날 때까지 유지
+            - 프로그램이 돌아가면 계속 사용 가능
+        - Enclosed scope ⇒ 지역 범위 한 단계 위 범위
+        - local scope ⇒ 함수가 호출되고 생성되고, 함수가 종료될 때까지 유지
+            - 함수가 쓸 때만 생성되고 함수가 끝나면 사라지는 경우
+    - global문 ⇒ global [변수]
+        - global문을 붙이는 순간부터 global이 되며 변수를 재선언하게되면 바꿔짐
+        - parameter의 경우에는 global로 사용이 불가능하다.
+    - nonlocal ⇒ nonlocal [변수]
+        - global을 제외하고 가장 가까운 scope 변수를 연결하도록 함
+        - 가장 가까운 변수를 한번만 바꾸는 경우일 때 사용
+        - 가장 가까운 변수가 없을 때 nonlocal을 사용하면 에러가 난다
+4. 함수의 응용
+    - map(function, iterable) ⇒ function에 가능한 것 : 자료형 / lambda x: ~~
+    - filter(function, iterable) ⇒ iterab
+    - zip(list_a,list_b) ⇒ list_a , list_b의 요소 하나씩을 가져오는 함수
+    - lambda [parameter] : 표현식
+        - return문을 가질 수 없으며 조건문 / 반복문 불가능
+        - 간결한 사용
+    - 재귀함수 (recursive function)
+        - 자기 자신을 호출하는 함수 / 1개 이상의 base case(종료 상황)을 둬야 한다.
+        - 메모리 스택(Stack overflow) , 1000번 이상 재귀 시 Recursion Error 발생
+5. 모듈
+    - 라이브러리(library) > 패키지 > 모듈 순으로 모임 집합
+    - 프레임워크(framework) ⇒ build가 되있는 상태
+    - 파이썬에서 라이브러리 / 프레임워크를 설치하는 법 ⇒ pip
+    - pip list (pip에 있는 패키지 확인), pip show Somepackage (무슨 패키지인지 알아보기)
+    - pip freeze > requirements.txt  ↔ pip install -r requirements.txt (다운받은 패키지를 다른 컴퓨터에서 사용하고 싶을 때)
+6. 모듈
+    - 외부 라이브러리(패키지, 모듈)을 사용하는 경우 pip으로 설치를 해야하는데 이 때 회사 / 사람마다 외부 라이브러리 버젼이 다를 수 있음. 이럴 경우에 에러가 생기게 되므로 가상환경을 활성화시켜서 특정 환경에서의 패키지를 관리
+    - python -m venv [venv] ⇒ 가상환경의 이름을 venv로 만들겠다.
+    - source [venv]/Scipts/activate ⇒ 가상환경을 activate한다.
 </div>
 </details>
