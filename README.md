@@ -392,3 +392,8 @@
     - source [venv]/Scipts/activate ⇒ 가상환경을 activate한다.
 </div>
 </details>
+
+<details>
+<summary> 8st Day - off </summary>
+<div markdown = "1">
+</details>
