@@ -395,5 +395,8 @@
 
 <details>
 <summary> 8st Day - off </summary>
+   오늘은 json을 이용하여 데이터크롤링하는 방법을 배웠음
+   json형태는 기본적으로 리스트 안에 Dic 형태로 이루어져 있음 => 각각을 확인할 떄 get함수를 사용 or 리스트 안에서 일일히 확인하는 방법이 필요함
+   * get => dic.get 형태로 이루어져 있으며 Dic.key값을 찾아주는 
 <div markdown = "1">
 </details>
