@@ -398,4 +398,26 @@
 <div markdown = "1">
 </details>
 
-....
+<details>
+<summary> 9st Day - off </summary>
+<div markdown = "1">
+# 파이썬 8일차(2022/07/28)
+
+```python
+import random
+random.shuffle([list]) => list를 마음대로 섞음
+random.randrange(a,b) => a ~ b-1 사이에서 랜덤으로
+random.choice([list]) => list안에서 하나를 추출해옴
+random.sample([list],n) => list에서 n개만큼을 뽑아옴
+print('{:^40}'.format(f'')) # 40개 중에서 가운데 라인에서 넣겠다
+@staticmethod # static method는 return이 있어야하며 method안에서 가능
+@classmethod # 자기 함수 안에 있는 인스턴스 함수만 사용이 가능함.
+
+class A:
+	def Ai(self, ):
+       다른 함수를 불러내려면 self.Ai_2(변수) or A.Ai_2(변수)
+@staticmethod
+	def Ai_2([변수]):
+
+```
+</details>
