@@ -421,3 +421,38 @@ class A:
 
 ```
 </details>
+
+
+<details>
+<summary> 10st Day - off </summary>
+<div markdown = "1">
+# 파이썬 10일차(2022/07/28)
+
+```python
+```python
+form 태그 : 정보(데이터)를 서버에 제출하기 위해 사용하는 태그
+
+	action : form을 처리할 서버의 URL(데이터를 보내는 곳)
+	method : form을 제출할 때 사용할 Http 메서드(Get/Post)
+	enctype : method가 post인 경우 데이터의 유형
+
+input 태그 : 다양한 타입을 가지는 입력 데이터 유형 / 위젯
+  type : 'text', 'password','email','number','file','checkbox','color','date','hidden' 등등의 형태가 있음
+	type='submit' : 이전 input의 데이터들을 서버로 보낼 때 사용(ex : 제출)
+	name : 뒤에 paramckddp ?q=HTML과 같이 나오게끔하는 변수(Label과 연동)
+	value : Label의 form control에 적용되는 값
+	autofocus : 
+Label 태그 : input tag에 대한 상세한 내용을 적을 때 사용한다.
+	input에는 name, label에는 for 속성을 붙여서 상호연관시킴 (이름이 같아야 한다.)
+	위와 같이 하는 이유는 label을 누르더라도 같은 id인 input에 입력이 뜬다.
+
+checkbox
+input에서 checkbox는 input value 와 label for이 같게끔 하여 사용한다.
+
+```
+
+```
+</details>
+
+
+
